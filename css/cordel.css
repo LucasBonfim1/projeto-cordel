@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+}
+
+.cabecalho {
+    margin: auto;
+    height: 180px;
+    
+    text-align: center;
+    
+    background: url(../img/folhas-secas.jpg) center top no-repeat fixed;
+    background-size: cover;
+}
+.titulo-principal {
+    font-family: "Montserrat", sans-serif ;
+    padding-top: 40px;
+    font-size: 4.6vw;
+    font-weight: 600;
+    color: #fff;
+    text-shadow: 1px 1px black;
+}
+
+.subtitulo-principal {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: #0e73e7;
+    font-weight: bolder;
+    text-shadow: 1px 1px black;
+}
+
+.subtitulo-principal:hover{
+    
+    color: rgb(69, 149, 214);
+} 
+
+.estrofe {
+    font-variant: small-caps;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
+    font-size: 22px;
+    padding: 1.5em 0 1.5em 10px;
+
+}
+
+main {
+    text-align: left;
+}
+
+
+
+.texto-rodape {
+    text-align: center;
+    background-color: black;
+    color: #fff;
+    align-items: center;
+    font-size: 14px;
+    height: 30px;
+    padding-top: 10px;
+    font-family: "Montserrat", sans-serif;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #0e73e7;
+    font-weight: bolder;
+}
+
+a:hover {
+    color: rgb(69, 149, 214);
+    transition: .2s;
+}
+
+section {
+    padding-bottom: 10vh;
+    padding-top: 10vh;
+    line-height: 2.5em;
+    padding-left: 30px;
+    text-shadow: 1px 1px 0px black
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: rgb(44, 42, 42);
+    color: white;
+
+}
+
+section.imagem > p {
+    background-color: rgba(0, 0, 0, 0.507);
+    width: 400px;
+}
+
+section#img01 {
+    background: url(../img/tv.jpg) center top no-repeat fixed;
+    background-size: cover;
+   
+}
+
+section#img02 {
+    background: url(../img/folha-papel.jpg) center center no-repeat fixed; 
+    background-size: cover;
+}
+
+section#img03 {
+   
+    background: url(../img/garoto-celular.jpg) center center no-repeat fixed;
+    background-size: cover;
+}
